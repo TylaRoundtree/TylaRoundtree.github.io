@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>tyla</title>
+    </head>
+    <body>
+        <!--All content goes here --->
+        <div>
+             <nav>
+
+            </nav>
+
+            <main>
+               <--sidebar section-->
+            </main>
+        <div>        
+
+     </body>
+</html>
+body {
+    background: rgb(125, 198, 205);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: arial;
+}
+#all-contents {
+  max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgba(239, 41, 160, 0.257);
+   margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    color: rgb(241, 15, 113);
+    flex: 1;
+    margin: 0;
+}
+#nav-ul {
+    list-style-image: none;
+}
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+a {
+    text-decoration: none;
+    color: #f40df437;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgba(243, 5, 172, 0.286);
+    display: flex;
+}
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img {
+    width: 200px;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* portfolio styles */
+#interests {
+    border: 4px rgba(214, 14, 121, 0.28) ridge;
+    padding: 8px;
+}
+h2, h3 {
+    margin: 0px;
+}
+
+}
